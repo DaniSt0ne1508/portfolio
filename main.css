@@ -47,7 +47,6 @@ hr{
 }
 
 #title{
-    width: 100%;
     text-align:center;
     font-size: 100px;
     color: var(--purple2);
@@ -67,7 +66,7 @@ hr{
 }
 
 .blue{
-    color: var(--blue));
+    color: var(--blue);
 }
 
 h2{
@@ -82,19 +81,19 @@ h3{
 
 footer{
     text-align: center;
-    background-color: rgb(30,30,30);
-    color: rgb(240,240,240);
+    background-color: var(--primary-dark);
+    color: var(--secondary);
 }
 
 #portfolio{
-    background-color: rgb(30,30,30);
+    background-color: var(--primary-dark);
     padding: 30px;
 }
 
 #portfolio button{
     display:inline-block;
     border:none;
-    box-shadow: 0 0 5px rgb(240,240,240);
+    box-shadow: 0 0 5px var(--secondary);
     overflow: hidden;
     max-width: 400px;
     margin: 20px;
@@ -127,7 +126,7 @@ footer{
 }
 
 #sobremi{
-    background-color: rgb(30,30,30);
+    background-color: var(--primary-dark);
     padding: 30px;
 }
 
@@ -139,8 +138,8 @@ footer{
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
-    color: rgb(30,30,30);
-    background-color: rgb(240,240,240);
+    color: var(--primary-dark);
+    background-color: var(--secondary);
     border-radius: 20px;
     transition: 0.3s;
 }
@@ -148,7 +147,7 @@ footer{
 #sobremi a:hover{
     font-weight: bolder;
     border-radius: 15px;
-    background-color: rgb(199,77,237);
+    background-color: var(--purple);
 }
 
 form{
@@ -180,7 +179,7 @@ form button{
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(30,30,30);
-    background-color: rgb(240,240,240);
+    background-color: var(--secondary);
     border-radius: 20px;
     border: none;
     cursor: pointer;
@@ -190,7 +189,7 @@ form button{
   form button:hover{
     font-weight: bolder;
     border-radius: 15px;
-    background-color: rgb(199,77,237);
+    background-color: var(--purple);
   }
 
   #social-media{
@@ -206,7 +205,7 @@ form button{
 
   #social-media img{
     color: rgb(30,30,30);
-    background-color: rgb(240,240,240);
+    background-color: var(--secondary);
     border-radius: 20px;
     border: none;
     cursor: pointer;
@@ -215,7 +214,7 @@ form button{
 
   #social-media img:hover{
     border-radius: 15px;
-    background-color: rgb(199,77,237);
+    background-color: var(--purple);
   }
 
 .show{
