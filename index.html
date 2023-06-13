@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>DaniSt0ne</title>
+    <title>DaniSt0ne site</title>
     <link rel="stylesheet" href="main.css" type="text/css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +25,7 @@
                 </h3>
             </header>
             <main>
-                <section  id="portfolio">
+                <section  id="portfolio" class="dark">
                     <h2>Portfolio</h2>
                     <hr class="white-hr">
                     <div>
@@ -35,7 +35,7 @@
                         <button>Project</button>
                     </div>
                 </section>
-                <section id="habilidades">
+                <section id="habilidades" class="light">
                     <h2>Habilidades</h2>
                     <hr>
                     <div>
@@ -45,7 +45,7 @@
                         <img src="images\java.png"></>
                     </div>
                 </section>
-                <section id="sobremi">
+                <section id="sobremi" class="dark">
                     <h2>Sobre mi</h2>
                     <hr class="white-hr">
                     <div>
@@ -55,16 +55,16 @@
                             <span class="purple">Java</span>,de forma autodidacta estoy formandome en 
                             <span class="blue">Html, CSS y JavaScript</span>.
                         </p>
-                        <p>Mis objetivos actuales són aprender y pulir mis habilidades e ir creciendo en este sector, así 
+                        <p>Mis objetivos actuales son aprender y pulir mis habilidades e ir creciendo en este sector, así 
                             busco la oportunidad para ello.
-                             Estoy súper motivado, buscando posicionarme a la larga (o no tanto) como desarrollador <span class="yellow">Full-Stack</span> .
+                             Estoy súper motivado, buscando posicionarme a la larga (o no tanto) como desarrollador <span class="yellow">Full-Stack</span>.
                         </p>
                     </div>
                     <div class="boton">
                         <a href="pdf\Esp-Desarrollador Web Morado.pdf" target="_blank" download="Curriculum_Daniel_Piedra">Descargar CV</a>
                     </div>
                 </section>
-                <section id="contacto">
+                <section id="contacto" class="light">
                     <h2>Contacto</h2>
                     <hr>
                     <form action="https://formspree.io/f/mbjevvlo" method="POST">
@@ -93,5 +93,21 @@
                 <small>Developed and designed by Daniel Piedra. ©2023.
                     All rights reserved.</small>   
             </footer>
+   
+    <!-- JS Query -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script>
+
+  // Muestra SideBar
+  $('#menuBoton').on('click', function() {
+    $(".container").toggleClass('show');
+  })
+
+  // Oculta SideBar
+  $('.side-hide').on('click', function() {
+    $(".container").toggleClass('show');
+  });
+</script>
 </body>
 </html>

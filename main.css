@@ -26,29 +26,28 @@ body{
     text-align: center;
 }
 
-/* #menuBoton{
-    font-size: 30px;
-    padding: 10px;
-    border:none;
-    color:rgb(119, 224, 101);
-    background-color: rgb(37,37,38);
-    cursor: pointer;
-    float:left;
-} */
+.dark{
+    background-color: var(--primary-dark);
+    padding: 3rem;
+}
+
+.light{
+    background-color: var(--primary);
+    padding: 3rem;
+}
 
 hr{
     width: 70%;
     margin:auto;
-    border: 1.5px solid var(--primary-dark);
+    border: .1rem solid var(--primary-dark);
 }
 
 .white-hr{
-    border: 1px solid var(--secondary);
+    border: .1rem solid var(--secondary);
 }
 
 #title{
-    text-align:center;
-    font-size: 100px;
+    font-size: 10rem;
     color: var(--purple2);
 }
 
@@ -70,13 +69,12 @@ hr{
 }
 
 h2{
-    text-align: center;
-    padding: 10px;
     text-transform: uppercase;
+    font-size: 3rem;
 }
 
 h3{
-    padding: 10px;
+    padding: 1rem;
 }
 
 footer{
@@ -85,26 +83,18 @@ footer{
     color: var(--secondary);
 }
 
-#portfolio{
-    background-color: var(--primary-dark);
-    padding: 30px;
-}
 
 #portfolio button{
     display:inline-block;
     border:none;
-    box-shadow: 0 0 5px var(--secondary);
+    box-shadow: 0 0 0.1rem var(--secondary);
     overflow: hidden;
     max-width: 400px;
-    margin: 20px;
+    margin: 1rem;
     cursor: pointer;
     /* reemplazar luego */
     width: 400px;
     height: 300px;
-}
-
-#habilidades {
-    padding: 30px;
 }
 
 #habilidades img{
@@ -114,24 +104,21 @@ footer{
 
 #habilidades div{
     display: grid;
-    grid-row-gap: 100px;
-    margin: 20px;
+    grid-row-gap: 3rem;
+    margin: 1rem;
     grid-template-columns:200px 200px;
     justify-content: center;
     justify-items: center;
 }
 
 .boton{
-    padding: 20px;
-}
-
-#sobremi{
-    background-color: var(--primary-dark);
-    padding: 30px;
+    padding: 1rem;
 }
 
 #sobremi p{
-    padding: 10px;
+    padding: 0.8rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #sobremi a{
@@ -152,23 +139,24 @@ footer{
 
 form{
     display: block;
+    font-size: 1rem;
 }
 
 form label{
     display: block;
-    margin: 10px auto;
+    margin: 1rem auto;
     width: 50%;
     font-weight: bold;
 }
 
 input{
-    margin: 10px;
+    margin: 1rem;
     padding: 10px 60px;
     width: 100%;
 }
 
 textarea{
-    margin: 10px;
+    margin: 1rem;
     padding: 50px;
     width: 100%;
 }
@@ -196,11 +184,11 @@ form button{
     justify-content: center;
     display: flex;
     flex-direction: row;
-    margin: 15px;
+    margin: 1rem;
   }
 
   #social-media a{
-    padding: 10px;
+    padding: 1rem;
   }
 
   #social-media img{
@@ -216,7 +204,3 @@ form button{
     border-radius: 15px;
     background-color: var(--purple);
   }
-
-.show{
-    left: 0;
-}
